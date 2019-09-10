@@ -23,7 +23,7 @@ void draw() {
     }
   }
   for (int i=0; i<Sojler.length; i++) {
-    fill(10+i*Sider);
+    fill(255/Sider*i);
     rect(500/Sider*(i-1),500,500/Sider,-Sojler[i]);
     /*
     fill(10);
